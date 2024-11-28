@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTestCase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TestCase>
+    <TestData>(2+3)*3=</TestData>
+    <ExpectedResult>15</ExpectedResult>
+  </TestCase>
+  <TestCase>
+    <TestData>(3-3)/3=</TestData>
+    <ExpectedResult>0</ExpectedResult>
+  </TestCase>
+</ArrayOfTestCase>

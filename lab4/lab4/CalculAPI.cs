@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Automation;
-using System.Windows.Documents;
+﻿using System.Windows.Automation;
 
 namespace lab4
 {
-    internal class CalculAPI
+    public class CalculAPI
     {
         private  AutomationElement calcUI = null;
 
@@ -49,6 +43,7 @@ namespace lab4
                 Four = "Четыре",
                 Five = "Пять",
                 Six = "Шесть",
+                Seven = "Семь",
                 Eight = "Восемь",
                 Nine = "Девять";
         }
@@ -61,7 +56,7 @@ namespace lab4
                 Division = "Разделить на",
                 Square = "Квадрат",
                 SquareRoot = "Квадратный корень",
-                Equals = "Равно";
+                Equal = "Равно";
         }
 
         public static class SymbolsButtonRU
